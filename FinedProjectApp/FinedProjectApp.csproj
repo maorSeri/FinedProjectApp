@@ -114,6 +114,7 @@
     <Content Include="Scripts\button.js" />
     <Content Include="Scripts\carousel-rtl.js" />
     <Content Include="Scripts\collapse.js" />
+    <Content Include="Scripts\DirectorsProjects.js" />
     <Content Include="Scripts\dropdown.js" />
     <Content Include="Scripts\jquery-3.2.1.js" />
     <Content Include="Scripts\jquery-3.2.1.min.js" />
@@ -132,6 +133,8 @@
     <Content Include="Scripts\tab.js" />
     <Content Include="Scripts\tooltip.js" />
     <Content Include="Scripts\transition.js" />
+    <Content Include="View\Description.html" />
+    <Content Include="View\DirectorsProjects.html" />
     <Content Include="View\ProjectDirector.html" />
     <Content Include="View\Register.html" />
     <Content Include="View\Student.html" />
@@ -145,7 +148,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Migrations\Configuration.cs" />
-    <Compile Include="Models\ProjectDirec.cs" />
+    <Compile Include="Controllers\ProjectDirec.cs" />
     <Compile Include="Models\ProjectDirectorsContext.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Models\StudentsContext.cs" />

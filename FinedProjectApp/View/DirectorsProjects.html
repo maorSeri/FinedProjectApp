@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link href="../Content/css/bootstrap-rtl.css" rel="stylesheet" />
+    <title>
+        My Projects
+    </title>
+</head>
+<body>
+    <div class="container">
+        <h1>הפרוייקטים שלי</h1>
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>פרוייקטים</th>
+                </tr>
+            </thead>
+            <tbody id="myProjects"></tbody>
+        </table>  
+        <button class="btn btn-default text-center" data-bind="click: AddBtn">הוסף פרוייקט</button>
+    </div>
+    <script src="../Scripts/jquery-3.2.1.js"></script>
+    <script src="../Scripts/knockout-3.4.2.js"></script>
+    <script src="../Scripts/knockout.validation.js"></script>
+    <script src="../Scripts/DirectorsProjects.js"></script>
+</body>
+
+</html>
